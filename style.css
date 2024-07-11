@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", "Hind Siliguri";
 }
 
 /* Header section  */
@@ -111,6 +112,7 @@ nav li button:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 32px;
 }
 
 #web-development .container .card{
@@ -122,7 +124,7 @@ nav li button:hover{
     height: 275px;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 40px;
 }
 
 #web-development .container .card .card-text{
@@ -157,6 +159,10 @@ nav li button:hover{
     font-weight: 600;
     text-align: center;
     background-color: #fff;
+}
+
+.card-text button:hover{
+    cursor: pointer;
 }
 
 
@@ -276,7 +282,7 @@ nav li button:hover{
 .contact{
     height: 313px;
     width: 1140px;
-    background-image: url('assets/handshake.jpg');  /*Need to add shadow*/ 
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('assets/handshake.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
