@@ -5,6 +5,8 @@
     font-family: Azeret Mono;
 }
 
+/* Header section  */
+
 nav li {
     display: inline;
 }
@@ -45,6 +47,7 @@ nav li button:hover{
     cursor: pointer;
 }
 
+/* Home section  */
 
 #home{
     height: 652px;
@@ -90,6 +93,70 @@ nav li button:hover{
 
 .home .btn button:hover{
     cursor: pointer;
+}
+
+
+/* Web Development section  */
+#web-development{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 154px;
+    margin-bottom: 88px;
+}
+
+#web-development .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#web-development .container .card{
+    display: flex;
+    flex-direction: row;
+    gap: 99px;
+    border: none;
+    width: 946px;
+    height: 275px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#web-development .container .card .card-text{
+    width: 477px;
+    text-align: left;
+}
+
+.card-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+
+.card-text h1{
+    color: rgba(13, 19, 33, 0.7);
+    margin: 16px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.card-text button{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    margin: 32px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
 }
 
 
