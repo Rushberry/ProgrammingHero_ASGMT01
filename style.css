@@ -48,7 +48,7 @@ nav li button:hover{
 
 #home{
     height: 652px;
-    background-image: url('assets/Hero-bg.png');
+    background-image: url('assets/Hero-bg.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -91,6 +91,62 @@ nav li button:hover{
 .home .btn button:hover{
     cursor: pointer;
 }
+
+
+/* Inspiration section  */
+#inspiration{
+    height: 919px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inspiration iframe{
+    border: none;
+    border-radius: 16px;
+}
+
+#inspiration .video{
+    height: 614px;
+    width: 1140px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inspiration .text, #target .text, #web-development .text{
+    width: 852px;
+    text-align: center;
+}
+
+#inspiration h1, #target h1, #web-development h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#inspiration p, #target p, #web-development p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    opacity: 0.7;
+}
+
+/* Target section */
+#target{
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 /* Contact section  */
