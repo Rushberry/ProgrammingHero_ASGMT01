@@ -122,14 +122,14 @@ nav li button:hover{
     text-align: center;
 }
 
-#inspiration h1, #target h1, #web-development h1{
+#inspiration h1, #target .h1, #web-development .h1{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-#inspiration p, #target p, #web-development p{
+#inspiration p, #target .p, #web-development .p{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -142,13 +142,68 @@ nav li button:hover{
 #target{
     height: 480px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+#target .web-language{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
 
+#target .web-language div{
+    height: 220px;
+    width: 284px;
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    display: block;
+}
 
+.web-language div h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: 800;
+    text-align: left;
+}
+.web-language div p{
+    margin: 8px 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
 
+.web-language div a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.web-language div a:hover{
+    cursor: pointer;    
+}
+
+.html{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
 /* Contact section  */
 
 .contact{
